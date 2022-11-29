@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/product") // optional
 public class ProductController {
 	private String name="Sravani";
+	private String name="Krishna";
 	@GetMapping("/all") // or we can give with out path also default it will take path as /
 	public ResponseEntity<String> getAllProducts()
 	{
